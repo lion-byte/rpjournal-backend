@@ -1,3 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`Filler Create filler image URL 1`] = `"https://via.placeholder.com/1600x900.png/535353/eeeeee?text=ExampleText"`;
