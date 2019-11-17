@@ -9,7 +9,7 @@
     "lint": "eslint --ignore-path .gitignore .",
     "prettier": "prettier --ignore-path .gitignore --write \"**/*.+(js|json|yml|yaml|css|less|ts|md|graphql|mdx)\"",
     "start": "nodemon --config nodemon.json -e js,graphql -x node src",
-    "test": "npm run lint && npm run type && jest",
+    "test": "npm run type && jest",
     "type": "tsc --pretty"
   },
   "license": "MIT",
@@ -29,6 +29,7 @@
     "graphql-cli": "^3.0.14",
     "husky": "^3.0.9",
     "jest": "^24.9.0",
+    "jest-runner-eslint": "^0.7.5",
     "lint-staged": "^9.4.3",
     "nodemon": "^1.19.4",
     "prettier": "^1.19.1",

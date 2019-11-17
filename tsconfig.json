@@ -9,6 +9,6 @@
     "noEmit": true,
     "target": "es2015"
   },
-  "exclude": ["node_modules"],
+  "exclude": ["node_modules", "coverage"],
   "include": ["**/*.js"]
 }
